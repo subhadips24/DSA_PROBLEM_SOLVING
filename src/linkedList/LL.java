@@ -36,7 +36,7 @@ public class LL {
 			}
 			//Add element to the last last
 			public void addToLast(int value) {
-NODE node=new NODE(value);
+				NODE node=new NODE(value);
 				
 				if(head==null && tell==null) {
 					
